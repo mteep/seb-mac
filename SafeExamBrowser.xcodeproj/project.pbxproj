@@ -1175,7 +1175,6 @@
 		69220708249B9FD9009F8CD1 /* SEBScrollLockIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SEBScrollLockIcon@2x.png"; path = "Resources/Icons/Dock/SEBScrollLockIcon@2x.png"; sourceTree = "<group>"; };
 		69243B7B272609750026427D /* SEBProctoringViewIcon_green.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = SEBProctoringViewIcon_green.iconset; path = Resources/Icons/SEBProctoringViewIcon_green.iconset; sourceTree = "<group>"; };
 		69243B7D272609860026427D /* SEBRaiseHandIcon_raised_yellow.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = SEBRaiseHandIcon_raised_yellow.iconset; path = Resources/Icons/SEBRaiseHandIcon_raised_yellow.iconset; sourceTree = "<group>"; };
-		692476F41D27343600931AD8 /* SEB.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = SEB.entitlements; path = Resources/SEB.entitlements; sourceTree = "<group>"; };
 		69261B8E26BE2FE4001DE2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreferencesBrowser.xib; sourceTree = "<group>"; };
 		69261B9026BE2FF5001DE2BB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/PreferencesBrowser.strings; sourceTree = "<group>"; };
 		69263A9C1A2E0765006F1E31 /* SEBWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEBWebView.h; path = Classes/BrowserComponents/SEBWebView.h; sourceTree = "<group>"; };
@@ -2345,7 +2344,6 @@
 		6940B99C1BA0FBD6008C8CFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				692476F41D27343600931AD8 /* SEB.entitlements */,
 				696DAD1E1C3C2B1400397E18 /* JavaScript */,
 				6940B99D1BA0FBDF008C8CFC /* Icons */,
 				69782A4D1CCE068C00C2AA9A /* Settings.bundle */,
@@ -5291,7 +5289,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = SEB/Resources/SEB.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -5390,7 +5388,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = SEB/Resources/SEB.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
