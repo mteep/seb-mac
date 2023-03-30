@@ -3762,7 +3762,6 @@
 				TargetAttributes = {
 					6940B9651BA0F2FB008C8CFC = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 9Z623UDZ5L;
 						LastSwiftMigration = 1030;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
@@ -3804,7 +3803,6 @@
 						ProvisioningStyle = Manual;
 					};
 					69F7B5FA14F411FB00FD0761 = {
-						DevelopmentTeam = 6F38DNSC7X;
 						LastSwiftMigration = 1030;
 					};
 				};
@@ -5293,7 +5291,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 14622;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9Z623UDZ5L;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -6088,8 +6085,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 14622;
-				DEVELOPMENT_TEAM = 6F38DNSC7X;
-				"DEVELOPMENT_TEAM[sdk=macosx*]" = 6F38DNSC7X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
